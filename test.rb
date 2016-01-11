@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 
-class TestDraw < Minitest::test
+class TestDraw < Minitest::Test
 
   def test_1
     assert_output("!!!!!\n|o o|\n| V |\n| - |\n \\_/") {Draw.new("! | o V - \\_/").dessine_moi_un_mouton}
